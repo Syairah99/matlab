@@ -3,7 +3,7 @@ clc, clearvars, close all
 % Variables
 x = 0:0.1:10; %position
 y = x + 2*rand(1, length(x)); %temperature increase
-size = 20*abs(randn(1, length(x))) + 5*x; %strain mmeasurement
+size = 20*abs(randn(1, length(x))) + 5*x; %strain measurement
 color = ones(1, floor(length(x/2))) + x.^3; %pressure measurement
 
 % Scatter plot
